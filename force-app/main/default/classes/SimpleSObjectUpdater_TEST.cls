@@ -1,5 +1,5 @@
 @isTest
-public class TestSimpleSObjectUpdater {
+public class SimpleSObjectUpdater_TEST {
     
     private static Schema.SObjectType cType = Contact.SObjectType;
     private static Map<Integer, Contact> csBefore = new Map<Integer, Contact>();

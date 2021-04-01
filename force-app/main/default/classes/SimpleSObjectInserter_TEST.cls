@@ -1,5 +1,5 @@
 @isTest
-public class TestSimpleSObjectInserter {
+public class SimpleSObjectInserter_TEST {
     
     private static Schema.SObjectType cType = Contact.SObjectType;
     
