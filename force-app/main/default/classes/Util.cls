@@ -1,7 +1,7 @@
 public class Util {
 
     // ------- Public Methods ------
-    public static Map<String, List<SObject>> createMapFromListByForeignKeyString(List<SObject> records, String foreignKey) {
+    public static Map<String, List<SObject>> createMapFromListByForeignKeyString(List<SObject> records, Schema.SObjectField foreignKey) {
         // Created by caseybaker on 8/22/17.  Presume this is a Sundog person.  No, he didn't write a unit test to accompany it.  TO DO:  write one.
         Map<String, List<SObject>> mapByKey = new Map<String, List<SObject>>();
         for (SObject record : records) {
