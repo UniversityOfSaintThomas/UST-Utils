@@ -1,5 +1,5 @@
 @isTest
-public class TestUtil {
+public class Util_TEST {
     
     static testMethod void testDeveloperException() {
         try {
