@@ -1,1 +1,17 @@
-{"packageDirectories": [{"path": "force-app", "default": true}], "namespace": null, "sourceApiVersion": "51.0"}
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "UST-Utils1",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": null,
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "UST-Utils1": "0Ho5b000000oLkZCAU",
+        "UST-Utils1@0.1.0-1": "04t5b000002BOylAAG"
+    }
+}
