@@ -1,8 +1,11 @@
 # Salesforce / SFDX / CCI
 .cci
+.sf
 .sfdx
 /src.orig
 /src
+test_results.json
+test_results.xml
 
 # Python
 *.pyc

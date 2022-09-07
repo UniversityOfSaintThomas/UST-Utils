@@ -3,27 +3,12 @@ project:
     name: UST-Utils
     package:
         name: UST-Utils
-        api_version: '51.0'
+        api_version: '55.0'
     git:
         default_branch: 'main'
     source_format: sfdx
 
 tasks:
-    robot:
-        options:
-            suites: robot/UST-Utils/tests
-            options:
-                outputdir: robot/UST-Utils/results
-
-    robot_testdoc:
-        options:
-            path: robot/UST-Utils/tests
-            output: robot/UST-Utils/doc/UST-Utils_tests.html
-
-    run_tests:
-        options:
-            required_org_code_coverage_percent: 75
-
     deploy:
         options:
             path: force-app
